@@ -1,0 +1,150 @@
+:root {
+    --primary: #b5b5b5;
+    --secondary: #535050;
+    --accent: #3cc7b0;
+    --obsolite: #d08917;
+}
+* {
+    box-sizing: border-box;
+    color: var(--accent);
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5em;
+    position: relative;
+    background-color: var(--secondary);
+}
+
+header,
+nav,
+ul,
+li {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+}
+header nav ul li {
+    flex-grow: 1;
+    text-align: center;
+}
+header nav ul li a {
+    display: block;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--secondary);
+}
+main {
+    padding: 20px;
+    margin: auto;
+    max-width: 650px;
+}
+section {
+    margin: 100px 0;
+    border: var(--primary) solid 5px;
+    padding: 20px;
+    background-color: var(--secondary);
+    color: var(--primary);
+    box-shadow: 1px 1px 20px var(--primary);
+}
+#tele {
+    border: var(--obsolite) solid 3px;
+    box-shadow: inset 1px 1px 20px var(--obsolite);
+    padding: 15px;
+    border-radius: 5%;
+    margin: 10px;
+}
+#verizon {
+    border: var(--obsolite) solid 3px;
+    box-shadow: inset 1px 1px 20px var(--obsolite);
+    padding: 15px;
+    border-radius: 5%;
+    margin: 10px;
+}
+#at {
+    border: var(--obsolite) solid 3px;
+    box-shadow: inset 1px 1px 20px var(--obsolite);
+    padding: 15px;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+h1 {
+    margin-top: 60px;
+    word-spacing: 0.1em;
+    line-height: 1.2em;
+    border: 0px;
+    padding: 5px;
+    background-color: var(--secondary);
+}
+.flex {
+    display: flex;
+}
+.flex div {
+    flex-basis: 100%;
+}
+#subscription-plans div {
+    padding: 10px 10px 60px;
+    position: relative;
+}
+#subscription-plans ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#subscription-plans div button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+form label,
+form input {
+    display: block;
+    width: 100%;
+    margin: 0 0 10px;
+    padding: 10px;
+}
+form input[type="submit"] {
+    width: 100%;
+}
+button {
+    color: var(--secondary);
+    font-weight: 600;
+}
+#junior {
+    border: var(--obsolite) solid 3px;
+    box-shadow: inset 1px 1px 20px var(--obsolite);
+    padding: 15px;
+    border-radius: 5%;
+    margin: 10px;
+}
+#pro {
+    border: var(--obsolite) solid 3px;
+    box-shadow: inset 1px 1px 20px var(--obsolite);
+    padding: 15px;
+    border-radius: 5%;
+    margin: 10px;
+}
+#geek {
+    border: var(--obsolite) solid 3px;
+    box-shadow: inset 1px 1px 20px var(--obsolite);
+    padding: 15px;
+    border-radius: 5%;
+    margin: 10px;
+}
+input {
+    color: var(--secondary);
+    font-size: large;
+    font-weight: 300;
+}
